@@ -1,6 +1,12 @@
 <h4>Data from our latest report: <%= link_to @latest_report.title, report_path(@latest_report.id) %></h4>
 <ul class="small-block-grid-3">
-  <li><!-- Your content goes here --></li>
-  <li><!-- Your content goes here --></li>
-  <li><!-- Your content goes here --></li>
+
+	<%@latest_report.questions.each do |question| %>
+		<li class="card">
+			<span><p><%= question.title %></p></span>
+			<span><%= question.tag %></span>
+			<span><%= question.responses %></span>
+		</li>
+	<%end%>
+
 </ul>
