@@ -5,7 +5,9 @@
 		<li class="card">
 			<span><p><%= question.title %></p></span>
 			<span><%= question.tag %></span>
-			<span><%= question.responses %></span>
+			<% question.responses.each do |response| %>
+			<span><%= question.responses.where(country: "total").count  %></span>
+			<%end%>
 		</li>
 	<%end%>
 
