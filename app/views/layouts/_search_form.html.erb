@@ -1,0 +1,4 @@
+<%= form_tag "/reports", method: 'get' do %>
+  <%= search_field(:search, :name) %>
+  <%= submit_tag "", :class => 'search-button fa fa-search' %>
+<%end%>

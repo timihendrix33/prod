@@ -1,14 +1,32 @@
-<h4>Data from our latest report: <%= link_to @latest_report.title, report_path(@latest_report.id) %></h4>
-<ul class="small-block-grid-3">
+<div class="row">
+	<h4>Data from our latest report: <%= link_to @latest_report.title, report_path(@latest_report.id) %></h4>
+	<ul class="small-block-grid-3">
 
-	<%@latest_report.questions.each do |question| %>
-		<li class="card">
-			<span><p><%= question.title %></p></span>
-			<span><%= question.tag %></span>
-			<% question.responses.each do |response| %>
-			<span><%= question.responses.where(country: "total").count  %></span>
-			<%end%>
-		</li>
-	<%end%>
+		<%@latest_report.questions.each do |question| %>
+			<li class="card">
+				<span><p><%= link_to question.title, question_path(question.id) %></p></span>
+				<span><%= question.tag %></span>
+				<% question.responses.where(country: "total").each do |response| %>
+				<span><%= response.answer_count  %></span>
+				<%end%>
+			</li>
+		<%end%>
 
-</ul>
+	</ul>
+</div>
+<div class="row">
+	<h4>See All Reports</h4>
+	<h5>2014</h5>
+	<div class="large-6 columns">
+		<p><%= link_to @sharing_economy.title, report_path(@sharing_economy.id) %></p>
+		<p><%= @sharing_economy.description %></p>
+	</div>
+</div>
+<div class="row">
+	<br>
+	<h5>2013</h5>
+	<div class="large-6 columns">
+		<p><%= link_to @brand_relevance.title, report_path(@brand_relevance.id) %></p>
+		<p><%= @brand_relevance.description %></p>
+	</div>
+</div>

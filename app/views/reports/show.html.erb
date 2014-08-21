@@ -1,0 +1,17 @@
+<div class="row">
+	<h4><%= @report.title %></h4>
+	<p><%= @report.description %></p>
+</div>
+<div class="row">
+	<ul class="small-block-grid-3">
+		<% @report.questions.each do |question| %>
+			<li class="card">
+				<span><p><%= question.title %></p></span>
+				<span><%= question.tag %></span>
+				<% question.responses.where(country: "total").each do |response| %>
+				<span><%= response.answer_count  %></span>
+				<%end%>
+			</li>
+		<%end%>
+	</ul>
+</div>

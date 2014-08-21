@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140817222746) do
+ActiveRecord::Schema.define(version: 20140820224437) do
 
   create_table "questions", force: true do |t|
     t.string   "title"
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20140817222746) do
     t.string   "country"
     t.string   "answer"
     t.integer  "answer_rank"
-    t.integer  "count"
+    t.integer  "answer_count"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "question_id"

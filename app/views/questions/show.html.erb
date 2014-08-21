@@ -1,0 +1,9 @@
+<div class="row">
+	<div class="large-10 columns card">
+		<h5><%= @question.title %></h5>
+		<p><%= @question.tag %></p>	
+		<% @question.responses.where(country: "total").each do |response| %>
+			<span><%= response.answer_count  %></span>
+		<%end%>		
+	</div>
+</div>

@@ -36,6 +36,8 @@ gem 'rspec-rails', '~> 3.0.0', group: [:test, :development]
 gem 'rspec-collection_matchers', group: [:test, :development]
 gem 'capybara', '~> 2.4.1'
 
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
