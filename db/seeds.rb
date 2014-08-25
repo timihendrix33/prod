@@ -17,7 +17,7 @@ question_list = [
 	["Brands are an important part of the creative content online.", "Online", "The Sharing Economy"],
 	["I like it when brands ask consumers to get involved through crowdsourcing, creating brand videos, etc.", "Engagement", "Brand Relevance"],
 	["It makes me feel good when I see someone I admire using the same brand I use.", "Engagement", "Brand Relevance"],
-	["I have no interest in brands", "Engagement", "Youth"],
+	["I have no interest in brands.", "Engagement", "Youth"],
 	["Brands play an essential role in my life.", "Engagement", "Youth"],
 	["I have the power to help a brand succeed or fail.", "Engagement", "Youth"],
 	["I encourage my friends to use the brands I really like.", "Engagement", "Youth"],
@@ -93,18 +93,18 @@ response_list = [
 	["total", "Strongly Agree", 5, 2167, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
 	["US", "Strongly Agree", 5, 79, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
 	["UK", "Strongly Agree", 5, 56, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["total", "Somewhat Agree", 5, 3367, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["US", "Somewhat Agree", 5, 170, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["UK", "Somewhat Agree", 5, 126, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],	
-	["total", "Neither agree nor disagree", 5, 3455, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["US", "Neither agree nor disagree", 5, 195, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["UK", "Neither agree nor disagree", 5, 215, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],	
-	["total", "Somewhat disagree", 5, 958, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["US", "Somewhat disagree", 5, 40, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["UK", "Somewhat disagree", 5, 60, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],		
-	["total", "Strongly disagree", 5, 626, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["US", "Strongly disagree", 5, 17, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
-	["UK", "Strongly disagree", 5, 45, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],				
+	["total", "Somewhat Agree", 4, 3367, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["US", "Somewhat Agree", 4, 170, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["UK", "Somewhat Agree", 4, 126, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],	
+	["total", "Neither agree nor disagree", 3, 3455, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["US", "Neither agree nor disagree", 3, 195, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["UK", "Neither agree nor disagree", 3, 215, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],	
+	["total", "Somewhat disagree", 2, 958, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["US", "Somewhat disagree", 2, 40, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["UK", "Somewhat disagree", 2, 60, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],		
+	["total", "Strongly disagree", 1, 626, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["US", "Strongly disagree", 1, 17, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
+	["UK", "Strongly disagree", 1, 45, DateTime.new(2013,6,30), "It makes me feel good when I see someone I admire using the same brand I use."],
 	# Question 5
 	["total", "Strongly Agree", 5, 1126, DateTime.new(2013,6,30), "I have no interest in brands."],
 	["US", "Strongly Agree", 5, 45, DateTime.new(2013,6,30), "I have no interest in brands."],
@@ -120,7 +120,7 @@ response_list = [
 	["UK", "Somewhat disagree", 2, 116, DateTime.new(2013,6,30), "I have no interest in brands."],		
 	["total", "Strongly disagree", 1, 1359, DateTime.new(2013,6,30), "I have no interest in brands."],
 	["US", "Strongly disagree", 1, 62, DateTime.new(2013,6,30), "I have no interest in brands."],
-	["UK", "Strongly disagree", 1, 34, DateTime.new(2013,6,30), "I have no interest in brands."],					
+	["UK", "Strongly disagree", 1, 34, DateTime.new(2013,6,30), "I have no interest in brands."],
 	# Question 6
 	["total", "Strongly Agree", 5, 1281, DateTime.new(2013,6,30), "Brands play an essential role in my life."],
 	["US", "Strongly Agree", 5, 55, DateTime.new(2013,6,30), "Brands play an essential role in my life."],
@@ -296,13 +296,13 @@ response_list = [
 	["UK", "Somewhat disagree", 2, 21, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],		
 	["total", "Strongly disagree", 1, 237, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
 	["US", "Strongly disagree", 1, 4, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["UK", "Strongly disagree", 1, 7, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],		
+	["UK", "Strongly disagree", 1, 7, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."]
 ]
 
 Response.delete_all
-response_list.each do |country, answer, answer_rank, count, date, question_title|
+response_list.each do |country, answer, answer_rank, answer_count, date, question_title|
 	@question_title = Question.find_by title: question_title	
-	Response.create(country: country, answer: answer, answer_rank: answer_rank, count: count, date: date, question_id: @question_title.id)
+	Response.create(country: country, answer: answer, answer_rank: answer_rank, answer_count: answer_count, date: date, question_id: @question_title.id)
 end
 
 
