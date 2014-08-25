@@ -281,22 +281,7 @@ response_list = [
 	["total", "Strongly disagree", 1, 237, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
 	["US", "Strongly disagree", 1, 4, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
 	["UK", "Strongly disagree", 1, 7, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],							
-	# Question 16
-	["total", "Strongly Agree", 5, 2587, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["US", "Strongly Agree", 5, 132, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["UK", "Strongly Agree", 5, 66, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["total", "Somewhat Agree", 4, 4642, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["US", "Somewhat Agree", 4, 218, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["UK", "Somewhat Agree", 4, 255, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],	
-	["total", "Neither agree nor disagree", 3, 2563, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["US", "Neither agree nor disagree", 3, 133, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["UK", "Neither agree nor disagree", 3, 153, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],	
-	["total", "Somewhat disagree", 2, 544, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["US", "Somewhat disagree", 2, 13, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["UK", "Somewhat disagree", 2, 21, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],		
-	["total", "Strongly disagree", 1, 237, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["US", "Strongly disagree", 1, 4, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."],
-	["UK", "Strongly disagree", 1, 7, DateTime.new(2013,6,30), "When I find a brand that fits my personality, I tend to be loyal to it."]
+
 ]
 
 Response.delete_all

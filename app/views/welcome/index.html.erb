@@ -1,13 +1,19 @@
 <div class="row">
 	<h4>Data from our latest report: <%= link_to @latest_report.title, report_path(@latest_report.id) %></h4>
-	<ul class="small-block-grid-3">
+	<ul class="small-block-grid-2">
+	<% idx = 0 %>
+	<% @latest_report.questions.first(4).each do |question| %>
+		<% idx += 1 %>
 
-		<%@latest_report.questions.first(6).each do |question| %>
-			<li class="card">
-				<%= high_chart("responses", @chart) %>
-
-			</li>
-		<%end%>
+		<li>
+			<%= link_to question_path(question.id) do %>
+			<span id="chart_<%= idx.to_s %>">
+			<%= high_chart("chart_"+idx.to_s, @charts[idx]) %>
+			</span>
+			<% end %>
+			
+		</li>
+	<% end %>
 
 	</ul>
 </div>
