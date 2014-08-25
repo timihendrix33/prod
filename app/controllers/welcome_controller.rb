@@ -15,6 +15,8 @@ class WelcomeController < ApplicationController
 			@charts << chart
 
 		end			
+
+
 	end
 
 	def build_chart
@@ -27,7 +29,14 @@ class WelcomeController < ApplicationController
 			return @answers		
 		end
 		def get_response_results
-			@region_responses = @question.responses.where(country: "total")
+			def get_country
+				if (params[:country].empty?)
+					@country = "total"
+				else
+					@country = params[:country]
+				end
+			end
+			@region_responses = @question.responses.where(country: "#{@country}")
 			@results = []
 			@region_responses.each do |response|
 				@results << response.answer_count
